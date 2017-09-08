@@ -1,0 +1,26 @@
+<div class="container">
+    <form>
+        <div class="form-group">
+            <label for="name">name</label>
+            <input type="input" class="form-control" id="name" placeholder="name" ng-model="name">
+        </div>
+        <div class="form-group">
+            <label for="decription">description</label>
+            <input type="input" class="form-control" id="description" placeholder="description" ng-model="desc">
+        </div>
+        <div class="form-group">
+            <label for="image">image url</label>
+            <input type="input" class="form-control" id="image" placeholder="image url" ng-model="imageUrl">
+        </div>
+        <div class="form-group">
+            <label for="eyes">number of eyes</label>
+            <input type="input" class="form-control" id="eyes" placeholder="eyes" ng-model="eyes">
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox"> Is the monster scary?
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default" ng-click="$ctrl.addMonster(name,desc,imageUrl,eyes,$ctrl.formbinding)">Submit</button>
+    </form>
+</div>

@@ -1,0 +1,19 @@
+    .thumbnail {
+        height: 60vh;
+        background-color: #adb2d3;
+    }
+    
+    body {
+        font-family: 'Hanalei Fill', cursive;
+        background-color: #896279
+    }
+    
+    .img {
+        position: relative;
+        float: left;
+        width: 100px;
+        height: auto;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
